@@ -12,7 +12,6 @@ public class laboratory {
     static int[] dy = {-1, 1, 0, 0};
     static Queue<int[]> dfsQ = new LinkedList<>();
     static int N;
-    static int max = 2;
     static int min = 999999;
 
     static public void main(String args[]) throws IOException {
@@ -40,7 +39,6 @@ public class laboratory {
             for (int j = 0; j < virusCombination.get(i).size(); j++) {
                 dfsQ.offer(virusArr.get(virusCombination.get(i).get(j)));
             }
-            max = 2;
             int[][] copyMap = new int[N][N];
             visit = new boolean[N][N];
             arrayCopy(map, copyMap);
