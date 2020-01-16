@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0e117f-b0cf-486c-9e24-fb3d99a18cb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gerrymandering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minDistance2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setOfExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/virus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.gerrymandering">
+  <component name="RunManager" selected="Application.virus">
     <configuration name="gerrymandering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gerrymandering" />
       <module name="algorithm" />
@@ -63,15 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="treeFindParents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="treeFindParents" />
+    <configuration name="setOfExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="setOfExpression" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="treeRadius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="treeRadius" />
+    <configuration name="virus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="virus" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.virus" />
+        <item itemvalue="Application.setOfExpression" />
         <item itemvalue="Application.gerrymandering" />
         <item itemvalue="Application.minDistance2" />
         <item itemvalue="Application.minDistance" />
-        <item itemvalue="Application.treeRadius" />
-        <item itemvalue="Application.treeFindParents" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +113,9 @@
       <workItem from="1578188444781" duration="26314000" />
       <workItem from="1578276952254" duration="16660000" />
       <workItem from="1578620773929" duration="24853000" />
-      <workItem from="1578811556624" duration="10903000" />
+      <workItem from="1578811556624" duration="13485000" />
+      <workItem from="1578884601688" duration="3979000" />
+      <workItem from="1579170931565" duration="269000" />
     </task>
     <servers />
   </component>
@@ -130,31 +131,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578194428659" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578826357826">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1579102684986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578493571295" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578826357826" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578826357826">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579102684986" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1579102684986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578493571295" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578826357826" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578826357825">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579102684986" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1579102684985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578493571295" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578826357825" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578826357826">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579102684985" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1579102684986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578493571295" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578826357826" />
-    <state x="574" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1578811618873">
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579102684986" />
+    <state x="574" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1579171012072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="459" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578276960320" />
-    <state x="574" y="299" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578811618873" />
+    <state x="574" y="299" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579171012072" />
     <state x="328" y="149" width="880" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578108428404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
