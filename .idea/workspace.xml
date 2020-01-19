@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0e117f-b0cf-486c-9e24-fb3d99a18cb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hanoiTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coloringBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makeBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/makeBridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makeBridge2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/makeBridge2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +39,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.makeBridge2">
-    <configuration name="coin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coin" />
+  <component name="RunManager" selected="Application.coloringBook">
+    <configuration name="coloringBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coloringBook" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.coloringBook" />
         <item itemvalue="Application.makeBridge2" />
         <item itemvalue="Application.hanoiTower" />
         <item itemvalue="Application.numberCombination" />
         <item itemvalue="Application.lostBracket" />
-        <item itemvalue="Application.coin" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +116,7 @@
       <workItem from="1578884601688" duration="3979000" />
       <workItem from="1579170931565" duration="9278000" />
       <workItem from="1579318708571" duration="12735000" />
-      <workItem from="1579414431381" duration="13330000" />
+      <workItem from="1579414431381" duration="16110000" />
     </task>
     <servers />
   </component>
@@ -139,26 +136,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578194428659" />
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1579427705266">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1579430688689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578493571295" />
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579427705266" />
-    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1579427705266">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579430688689" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1579430688689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578493571295" />
-    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579427705266" />
-    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1579427705266">
+    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579430688689" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1579430688689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578493571295" />
-    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579427705266" />
-    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1579427705266">
+    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579430688689" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1579430688689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578493571295" />
-    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579427705266" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579430688689" />
     <state x="574" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1579414431846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
