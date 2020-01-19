@@ -72,13 +72,13 @@ public class MST {
             list.get(e).add(new PrimEdge(s, w));
             kruskalQ.offer(new Edge(s, e, w));
         }
-//        while (!kruskalQ.isEmpty()) {
-//            Edge a = kruskalQ.poll();
-//            if (find(a.start) != find(a.end)) {
-//                union(a.start, a.end);
-//                kruskalResult += a.weight;
-//            }
-//        }
+        while (!kruskalQ.isEmpty()) {
+            Edge a = kruskalQ.poll();
+            if (find(a.start) != find(a.end)) {
+                union(a.start, a.end);
+                kruskalResult += a.weight;
+            }
+        }
         for (int i = 0; i < list.get(1).size(); i++) {
             primQ.offer(list.get(1).get(i));
         }

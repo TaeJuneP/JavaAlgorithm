@@ -40,7 +40,6 @@ public class makeBridge {
                 num++;
                 dfsIsland(map, N, location);
             }
-
         }
         bfsBridge(map, N, bridge);
         System.out.println(min);
