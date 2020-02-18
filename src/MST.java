@@ -14,6 +14,7 @@ public class MST {
     static PriorityQueue<PrimEdge> primQ = new PriorityQueue<>();
     static ArrayList<ArrayList<PrimEdge>> list = new ArrayList<>();
 
+
     public static class Edge implements Comparable<Edge> {
         int start;
         int end;
